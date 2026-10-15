@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+header {
+    margin: 30px 0px 144px 70px
+}
+a{
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 28px;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    color: rgb(20, 93, 105);
+}
+.botao-login{
+    width: 130px;
+    height: 38px;
+    border-radius: 38px;
+    background:rgb(97, 211, 226) ;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(49, 93, 100);
+    transition: 0.8;
+}
+.botao-login:hover{
+    opacity: 0.8;
+}
+.logodog{
+    width: 40%;
+    vertical-align: middle;
+}
+.texto{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 5%;
+    text-align: left;
+}
+main{
+    text-align: center;
+}
+.botao-explore{
+    width: 200px ;
+    height: 34px ;
+    cursor: pointer;
+    background: rgb(18, 208, 233);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 5px rgb(8, 39, 43);
+    transition: opacity o.3s;
+}
+
+.botao-explore{
+    opacity: 0.7;
+}
+.titulo{
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgb(63, 185, 216);
+}
+.sub-titulo{
+    color: rgb(13, 68, 68);
+    line-height: 1.5;
+
+}
+.paragrafo{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: rgb(29, 134, 167);
+    text-align: justify;
+    margin: 20px 0 30px 0;
+    max-width: 500;
+}
